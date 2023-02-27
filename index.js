@@ -1,4 +1,3 @@
-//const path = require('path');
 const express = require('express');
 const  methodOverride = require('method-override')
 const app = express();
@@ -56,17 +55,3 @@ app.listen(3000, () => {
 });
 
 
-/*
-app.get('/', (req, res) => {
-    res.send(`
-        <html>
-            <head>
-                <meta charset="utf-8">
-            </head>
-            <body>
-                <h1>Rota padrão</h1>
-                <a href="/exemplo/dashboard">Home</a>
-            </body>
-        </html>
-    `);
-});**/
