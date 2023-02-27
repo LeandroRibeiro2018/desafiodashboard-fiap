@@ -1,5 +1,3 @@
-
-
 module.exports={
     index:(req, res) =>{
         res.render('index')
@@ -8,12 +6,3 @@ module.exports={
         res.render('dashboard');
     }
 }
-
-/*
-const DashboardController ={
-   index:(req, res) =>{
-    res.render('dasboard')
-   }    
-
-}
-module.exports = DashboardController;*/

@@ -1,7 +1,7 @@
 {
   "name": "material-dashboard-dark",
   "version": "2.1.0",
-  "description": "Material Dasboard Dark Edition, a Google Material Desgin. Coded by Creative Tim",
+  "description": "Material Dasboard Dark Edition",
   "main": "index.html",
   "directories": {
     "example": "root"
@@ -32,21 +32,23 @@
     "frontend",
     "responsive bootstrap dashboard"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Leandro Ribeiro",
   "license": "MIT",
   "bugs": {
     "url": ""
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-open": "^3.0.1"
+    "nodemon": "^2.0.4"
   },
-  "homepage": ""
- 
+  "homepage": "",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "method-override": "^3.0.0"
+  }
 }
